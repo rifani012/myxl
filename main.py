@@ -16,8 +16,6 @@ user_data = {
     "tokens": None,
 }
         
-        show_main_menu
-        
         choice = input("Pilih menu: ")
         # Logged in
         if user_data["is_logged_in"]:
