@@ -5,7 +5,7 @@ from api_request import *
 from ui import *
 
 def load_token(api_key: str):
-    if os.path.exists("tokend.json"):
+    if os.path.exists("tokens.json"):
         with open("token.json", "r", encoding="utf8") as f:
             tokens = json.load(f)
         print("Tokens loaded successfully.")
