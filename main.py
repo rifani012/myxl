@@ -38,7 +38,6 @@ def main():
                     user_data["phone_number"] = phone_number
                 else:
                     print("Failed to login. Please try again.")
-                continue
             elif choice == "2":
                 fetch_my_packages(api_key, user_data["tokens"])
                 continue
