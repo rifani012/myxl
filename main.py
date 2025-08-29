@@ -2,7 +2,7 @@ import sys
 
 from api_request import *
 from ui import *
-from util import load_token, ensure_api_key
+from util import load_token
 from paket_xut import get_package_xut
 from paket_sfy import get_package_sfy
 from my_package import fetch_my_packages
@@ -20,11 +20,8 @@ api_key = ""
 
 show_menu = True
 def main():
-    global api_key
-    api_key = ensure_api_key()
     
-    while True:
-        updated_user_data = load_token(api_key)
+        updated_user_data = load_token
         if updated_user_data:
             global user_data
             user_data = updated_user_data
