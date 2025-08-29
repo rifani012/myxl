@@ -109,7 +109,7 @@ def save_tokens(tokens: dict, filename: str = "tokend.json"):
     with open(filename, 'w') as f:
         json.dump(tokens, f, indent=2, ensure_ascii=False)
         
-def load_tokens(filename: str = "tokens.json") -> dict:
+def load_tokens(filename: str = "tokend.json") -> dict:
     try:
         with open(filename, 'r') as f:
             tokens = json.load(f)
