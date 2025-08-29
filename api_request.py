@@ -105,7 +105,7 @@ def submit_otp(contact: str, code: str):
         print(f"[Error submit_otp]: {e}")
         return None
 
-def save_tokens(tokens: dict, filename: str = "tokens.json"):
+def save_tokens(tokens: dict, filename: str = "tokend.json"):
     with open(filename, 'w') as f:
         json.dump(tokens, f, indent=2, ensure_ascii=False)
         
