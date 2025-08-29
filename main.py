@@ -20,7 +20,7 @@ api_key = ""
 
 show_menu = True
         
-        show_main_menu()
+        show_main_menu(load_token)
         
         choice = input("Pilih menu: ")
         # Logged in
