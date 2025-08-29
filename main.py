@@ -57,7 +57,7 @@ def main():
             elif choice == "5":
                 family_code = input("Enter family code (or '99' to cancel): ")
                 if family_code == "99":
-                   continue
+                    continue
                 get_packages_by_family(api_key, user_data["tokens"], family_code)
             elif choice == "99":
                 print("Exiting the application.")
