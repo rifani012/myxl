@@ -54,7 +54,7 @@ def main():
                 continue
             elif choice == "4":
                 # SFY 
-                packages = get_package_xut(api_key, user_data["tokens"])
+                packages = get_package_sfy(api_key, user_data["tokens"])
                 
                 show_package_menu(api_key, user_data["tokens"], packages)
             elif choice == "5":
