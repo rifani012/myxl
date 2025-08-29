@@ -19,7 +19,7 @@ api_key = ""
 show_menu = True
 def main():
     global api_key
-    api_key = ensure_api_key()
+    api_key = ""
     
     while True:
         updated_user_data = load_token(api_key)
