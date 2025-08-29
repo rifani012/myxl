@@ -40,7 +40,6 @@ def main():
                     print("Failed to login. Please try again.")
             elif choice == "2":
                 fetch_my_packages(api_key, user_data["tokens"])
-                continue
             elif choice == "3":
                 # XUT 
                 packages = get_package_xut(api_key, user_data["tokens"])
