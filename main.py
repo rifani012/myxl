@@ -16,7 +16,7 @@ user_data = {
     "tokens": None,
 }
         
-        show_main_menu(user_data)
+        show_main_menu
         
         choice = input("Pilih menu: ")
         # Logged in
