@@ -43,7 +43,7 @@ def show_main_menu(user_data):
         print("2. Lihat Paket Saya")
         print("3. Beli Paket XUT")
         print("4. Beli Paket Spesial For You")
-        print("4. Beli Paket Berdasarkan Family Code")
+        print("5. Beli Paket Berdasarkan Family Code")
         print("99. Tutup aplikasi")
         print("--------------------------")
         
