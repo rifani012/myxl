@@ -36,7 +36,6 @@ def main():
                 phone_number = login_prompt()
                 if phone_number:
                     user_data["phone_number"] = phone_number
-                    continue
                 else:
                     print("Failed to login. Please try again.")
                 continue
