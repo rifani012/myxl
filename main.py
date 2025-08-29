@@ -22,7 +22,7 @@ show_menu = True
 def main():
     global api_key
     
-    while True:
+    True:
         updated_user_data = load_token(api_key)
         if updated_user_data:
             global user_data
