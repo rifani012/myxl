@@ -51,7 +51,7 @@ def main():
                 
                 show_package_menu(api_key, user_data["tokens"], packages)
                 continue
-            elif choice == "3":
+            elif choice == "4":
                 # PAKET 
                 packages = get_package_paket(api_key, user_data["tokens"])
                 
