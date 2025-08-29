@@ -10,7 +10,7 @@ def get_package_paket(api_key: str, tokens: dict):
     package_variants = data["package_variants"]
     start_number = 1
     for variant in package_variants:
-        if variant["name"] == "Dor Paket XL":
+        if variant["name"] == "BONUS #TraktiranXL 28th Anniversary":
             for option in variant["package_options"]:
                 if True:
                     friendly_name = option["name"]
