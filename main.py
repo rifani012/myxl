@@ -24,7 +24,7 @@ def main():
     api_key = ""
     
     while True:
-        updated_user_data = load_token(api_key)
+        updated_user_data = load_token()
         if updated_user_data:
             global user_data
             user_data = updated_user_data
