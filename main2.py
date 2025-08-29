@@ -20,6 +20,7 @@ api_key = ""
 show_menu = True
 def main():
     global api_key
+    api_key = "e8e1e10a-d19f-4787-b04b-ad1a857835b9"
     
     while True:
         updated_user_data = load_token(api_key)
